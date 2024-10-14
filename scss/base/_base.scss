@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color:#2E2E2E;
+  // font-family: "Roboto Condensed", system-ui;
+}
+.button {
+  cursor: pointer;
+  background-color:$accent-color;
+  border: none;
+  padding: 13px 19px;
+  border-radius: 27px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color:#fff;
+  transition: all .2s;
+  &:hover {
+    background-color:#d25640;
+  }
+}
+.h1-title{
+  font-family: "Roboto Condensed", system-ui;
+  font-size: 72px;
+  font-weight: 700;
+  color:$accent-color;
+}
+.h2-title{
+  font-size: 40px;
+  font-weight: 400;
+  color:#fff;
+  font-family: "Roboto Condensed", system-ui;
+}
+.h3-title {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 700;
+}
+.h4-title{
+  font-size: 24px;
+  font-weight: 300;
+  color:#fff;
+}
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.decor-line {
+  width: 150px;
+  height: 1px;
+  margin: 20px auto;
+  background-color:$accent-color;
+}
+.none {
+  display: none !important;
+}
